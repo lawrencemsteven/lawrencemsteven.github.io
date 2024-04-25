@@ -12,5 +12,5 @@ description = "Portfolio for Steven Lawrence"
 
 [author]
 name = "Steven Lawrence"
-image = "..\\assets\\img\\StevenLawrence.jpg"
+image = "img/StevenLawrence.jpg"
 headline = "Voxel Enthusiast"
