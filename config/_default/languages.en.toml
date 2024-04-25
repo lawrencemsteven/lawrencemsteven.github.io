@@ -8,6 +8,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "January 2 2006"
+logo = "img/logoNoBackground.gif"
 
 [author]
 name = "Steven Lawrence"
