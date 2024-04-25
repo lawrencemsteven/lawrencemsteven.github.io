@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VANG on Steven Lawrence</title>
+    <title>Vang on Steven Lawrence</title>
     <link>stevenml.com/projects/vang/</link>
-    <description>Recent content in VANG on Steven Lawrence</description>
+    <description>Recent content in Vang on Steven Lawrence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
     <atom:link href="stevenml.com/projects/vang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article1/</link>
+      <title>1) Plane-Assisted Ray Marching</title>
+      <link>stevenml.com/projects/vang/plane-assistedraymarching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>stevenml.com/projects/vang/article1/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article1/featured.png" />
+      <guid>stevenml.com/projects/vang/plane-assistedraymarching/</guid>
+      <description>Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/plane-assistedraymarching/featured.png" />
     </item>
     
     <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article2/</link>
+      <title>2) Basic Volumetric Fog</title>
+      <link>stevenml.com/projects/vang/basicvolumetricclouds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>stevenml.com/projects/vang/article2/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article2/featured.png" />
+      <guid>stevenml.com/projects/vang/basicvolumetricclouds/</guid>
+      <description>Fog is represented with a block that a ray can travel though.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/basicvolumetricclouds/featured.png" />
     </item>
     
     <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article3/</link>
+      <title>3) Greedy Cuboid Optimization</title>
+      <link>stevenml.com/projects/vang/greedycuboidoptimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>stevenml.com/projects/vang/article3/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article3/featured.png" />
+      <guid>stevenml.com/projects/vang/greedycuboidoptimization/</guid>
+      <description>Grouping similar blocks into one large cuboid allows for more efficient ray traversal.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/greedycuboidoptimization/featured.png" />
     </item>
     
     <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article4/</link>
+      <title>4) Accurate Glass Refractions</title>
+      <link>stevenml.com/projects/vang/accurateglassrefractions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>stevenml.com/projects/vang/article4/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article4/featured.png" />
+      <guid>stevenml.com/projects/vang/accurateglassrefractions/</guid>
+      <description>Rays travel through glass and is accurately refracted through it while accumulating some of the color of the glass.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/accurateglassrefractions/featured.png" />
     </item>
     
   </channel>

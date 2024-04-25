@@ -3,7 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>stevenml.com/projects/vang/plane-assistedraymarching/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/basicvolumetricclouds/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/greedycuboidoptimization/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/accurateglassrefractions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/employment/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/gamemaker/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -18,27 +43,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>stevenml.com/projects/unity/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/unreal/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/projects/vang/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/article1/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/article2/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/article3/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/article4/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

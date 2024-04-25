@@ -24,9 +24,9 @@ pageRef = "Unity"
 weight = 3
 
 [[main]]
-name = "Unreal Engine"
+name = "Unreal"
 parent = "Projects"
-pageRef = "UnrealEngine"
+pageRef = "Unreal"
 weight = 4
 
 [[main]]

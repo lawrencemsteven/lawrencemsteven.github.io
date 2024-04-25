@@ -9,6 +9,46 @@
     
     <atom:link href="stevenml.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>1) Plane-Assisted Ray Marching</title>
+      <link>stevenml.com/projects/vang/plane-assistedraymarching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/plane-assistedraymarching/</guid>
+      <description>Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/plane-assistedraymarching/featured.png" />
+    </item>
+    
+    <item>
+      <title>2) Basic Volumetric Fog</title>
+      <link>stevenml.com/projects/vang/basicvolumetricclouds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/basicvolumetricclouds/</guid>
+      <description>Fog is represented with a block that a ray can travel though.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/basicvolumetricclouds/featured.png" />
+    </item>
+    
+    <item>
+      <title>3) Greedy Cuboid Optimization</title>
+      <link>stevenml.com/projects/vang/greedycuboidoptimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/greedycuboidoptimization/</guid>
+      <description>Grouping similar blocks into one large cuboid allows for more efficient ray traversal.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/greedycuboidoptimization/featured.png" />
+    </item>
+    
+    <item>
+      <title>4) Accurate Glass Refractions</title>
+      <link>stevenml.com/projects/vang/accurateglassrefractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/accurateglassrefractions/</guid>
+      <description>Rays travel through glass and is accurately refracted through it while accumulating some of the color of the glass.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/accurateglassrefractions/featured.png" />
+    </item>
+    
+    <item>
       <title>Employment</title>
       <link>stevenml.com/employment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,46 +56,6 @@
       <guid>stevenml.com/employment/</guid>
       <description>Glodon USA March 2022 - December 2023Software EngineerWorked on a small graphics team in various areas for CAD modeling software related to architectureWrote python bindings for graphics related functions on the C++ backendUnderstood 3rd party code for future extension and developed documentation based on the code baseMoberg Analytics February 2021 - January 2022Clinical Informatics EngineerFull Stack development using Flask and React to create a medical dashboard which enables doctors to analyze patient dataCreated an interactive drag and drop analytic constructor and custom data visualizations using D3.</description>
       
-    </item>
-    
-    <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/article1/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article1/featured.png" />
-    </item>
-    
-    <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/article2/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article2/featured.png" />
-    </item>
-    
-    <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/article3/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article3/featured.png" />
-    </item>
-    
-    <item>
-      <title>Volumetric Clouds</title>
-      <link>stevenml.com/projects/vang/article4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/article4/</guid>
-      <description>This should be the description.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/article4/featured.png" />
     </item>
     
   </channel>
