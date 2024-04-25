@@ -8,7 +8,8 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "January 2 2006"
-description = "Portfolio for Steven Lawrence"
+logo = "img/StevenLawrence.jpg"
+description = "A Portfolio for Steven Lawrence"
 
 [author]
 name = "Steven Lawrence"
