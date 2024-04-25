@@ -1,0 +1,39 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Employment"
+pageRef = "Employment"
+weight = 1
+
+[[main]]
+name = "Projects"
+pageRef = "Projects"
+weight = 2
+
+[[main]]
+name = "VANG"
+parent = "Projects"
+pageRef = "VANG"
+weight = 2
+
+[[main]]
+name = "Unity"
+parent = "Projects"
+pageRef = "Unity"
+weight = 3
+
+[[main]]
+name = "Unreal Engine"
+parent = "Projects"
+pageRef = "UnrealEngine"
+weight = 4
+
+[[main]]
+name = "GameMaker"
+parent = "Projects"
+pageRef = "GameMaker"
+weight = 5
+
+[[footer]]
+none = "none"

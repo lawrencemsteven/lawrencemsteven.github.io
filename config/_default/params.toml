@@ -1,0 +1,100 @@
+colorScheme = "congo"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = false
+enableCodeCopy = true
+disableImageOptimization = false
+disableTextInHeader = false
+
+[header]
+layout = "fixed"
+
+[footer]
+showMenu = false
+showCopyright = false
+showThemeAttribution = false
+showAppearanceSwitcher = false
+showScrollToTop = false
+
+[homepage]
+layout = "profile"
+showRecent = false
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = false
+
+[article]
+showDate = false
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = false
+showHero = true
+heroStyle = "background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = false
+invertPagination = false
+showReadingTime = false
+showTableOfContents = false
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = false
+showZenMode = false
+
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = true
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+
+[fathomAnalytics]
+
+[umamiAnalytics]
+
+[buymeacoffee]
+
+[verification]

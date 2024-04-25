@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: stevenml.com/sitemap.xml

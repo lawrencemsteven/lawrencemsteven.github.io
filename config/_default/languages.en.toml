@@ -1,0 +1,16 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Steven Lawrence"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "January 2 2006"
+description = "Portfolio for Steven Lawrence"
+
+[author]
+name = "Steven Lawrence"
+image = "..\\assets\\img\\StevenLawrence.jpg"
+headline = "Voxel Enthusiast"
