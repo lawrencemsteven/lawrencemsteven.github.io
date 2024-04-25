@@ -4,31 +4,29 @@ title: "Employment"
 
 {{< timeline >}}
 
-{{< timelineItem icon="github" header="header" badge="badge test" subheader="subheader" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 
-{{< /timelineItem >}}
-
-
-{{< timelineItem icon="code" header="Another Awesome Header" badge="date - present" subheader="Awesome Subheader" >}}
-With html code
+{{< timelineItem icon="star" header="Glodon USA" badge="March 2022 - December 2023" subheader="Software Engineer" >}}
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Worked on a small graphics team in various areas for CAD modeling software related to architecture</li>
+  <li>Wrote python bindings for graphics related functions on the C++ backend</li>
+  <li>Understood 3rd party code for future extension and developed documentation based on the code base</li>
 </ul>
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="Shortcodes" badge="AWESOME" >}}
-With other shortcodes
-{{< gallery >}}
-  <img src="gallery/01.jpg" class="grid-w33" />
-  <img src="gallery/02.jpg" class="grid-w33" />
-  <img src="gallery/03.jpg" class="grid-w33" />
-  <img src="gallery/04.jpg" class="grid-w33" />
-  <img src="gallery/05.jpg" class="grid-w33" />
-  <img src="gallery/06.jpg" class="grid-w33" />
-  <img src="gallery/07.jpg" class="grid-w33" />
-{{< /gallery >}}
+
+{{< timelineItem icon="code" header="Moberg Analytics" badge="February 2021 - January 2022" subheader="Clinical Informatics Engineer" >}}
+<ul>
+  <li>Full Stack development using Flask and React to create a medical dashboard which enables doctors to analyze patient data</li>
+  <li>Created an interactive drag and drop analytic constructor and custom data visualizations using D3.js</li>
+  <li>Met weekly with Doctors and a team from IBM about development for the patient data dashboard</li>
+</ul>
+{{< /timelineItem >}}
+
+{{< timelineItem icon="github" header="Drexel CCI" badge="September 2020 - March 2021" subheader="Teaching Assistant" >}}
+<ul>
+  <li>Assist professor in conducting weekly labs</li>
+  <li>Grade written assignments and lab reports</li>
+  <li>Provide assistance to students on course subject matter</li>
+</ul>
 {{< /timelineItem >}}
 
 {{< /timeline >}}
