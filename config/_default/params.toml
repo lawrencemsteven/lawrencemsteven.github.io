@@ -27,7 +27,7 @@ cardViewScreenWidth = false
 layoutBackgroundBlur = false
 
 [article]
-showDate = false
+showDate = true
 showViews = false
 showLikes = false
 showDateOnlyInArticle = false

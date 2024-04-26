@@ -1,5 +1,6 @@
 ---
 title: "Vang"
+date: 2024-04-25
 summary: "Voxel Abstraction Engine"
 ---
 
