@@ -1,5 +1,6 @@
 ---
-title: "Employment"
+title: "Employment History"
+showDate: false
 ---
 
 {{< timeline >}}

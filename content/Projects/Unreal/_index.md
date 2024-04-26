@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine"
 date: 2022-06-08
-summary: "Experimentation"
+summary: "Try out blueprint and C++"
 ---
 
