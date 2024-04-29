@@ -8,5 +8,45 @@
     <language>en</language>
     
     <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="stevenml.com/projects/gamemaker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The MATCHine</title>
+      <link>stevenml.com/projects/gamemaker/thematchine/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/gamemaker/thematchine/</guid>
+      <description>Card Matching game made solo in a week</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/gamemaker/thematchine/featured.png" />
+    </item>
+    
+    <item>
+      <title>Mech Fighter</title>
+      <link>stevenml.com/projects/gamemaker/mechfighter/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/gamemaker/mechfighter/</guid>
+      <description>Two-player mech fighting tech demo</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/gamemaker/mechfighter/featured.png" />
+    </item>
+    
+    <item>
+      <title>Metallicrops Prototype</title>
+      <link>stevenml.com/projects/gamemaker/metallicrops/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/gamemaker/metallicrops/</guid>
+      <description>Survival matallic plant growing game</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/gamemaker/metallicrops/featured.png" />
+    </item>
+    
+    <item>
+      <title>Cosmic Redshift</title>
+      <link>stevenml.com/projects/gamemaker/cosmicredshift/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/gamemaker/cosmicredshift/</guid>
+      <description>Four player space ship battler</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/gamemaker/cosmicredshift/featured.png" />
+    </item>
+    
   </channel>
 </rss>

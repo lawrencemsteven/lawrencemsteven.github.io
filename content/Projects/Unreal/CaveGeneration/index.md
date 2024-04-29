@@ -6,7 +6,7 @@ summary: "Use Blueprint and C++ to generate a cave system for a game."
 
 This project served as an way to learn to Unreal Engine 5. The goal was to setup a simple cave generation algorithm. Here is a demo showcasing the end result:
 
-{{< youtubeLite id="PlqgGFu42z8" label="Blowfish-tools demo" >}}
+{{< youtubeLite id="PlqgGFu42z8" label="Unreal Cave Generation Demo" >}}
 
 There was a total of 17 possible layouts for the caves to generate within a 3D hexagonal grid layout. Here is an image of all the possible layouts:
 

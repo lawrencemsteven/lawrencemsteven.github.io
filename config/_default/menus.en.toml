@@ -24,16 +24,28 @@ pageRef = "Unity"
 weight = 3
 
 [[main]]
-name = "Unreal"
-parent = "Projects"
-pageRef = "Unreal"
-weight = 4
-
-[[main]]
 name = "GameMaker"
 parent = "Projects"
 pageRef = "GameMaker"
+weight = 4
+
+[[main]]
+name = "Animation"
+parent = "Projects"
+pageRef = "Animation"
 weight = 5
+
+[[main]]
+name = "Unreal"
+parent = "Projects"
+pageRef = "Unreal"
+weight = 6
+
+[[main]]
+name = "Other"
+parent = "Projects"
+pageRef = "Other"
+weight = 7
 
 [[footer]]
 none = "none"
