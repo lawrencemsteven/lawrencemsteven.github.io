@@ -8,4 +8,4 @@ This was my freshman design project at Drexel. This project was made over two qu
 
 In this game four players will split up and have to take control of their ship. There are four rooms within the ship, Shields, Oxygen Generator, Weapon, and Printer. The printer will make the supplies needed for each of the other rooms.
 
-{{< youtubeLite id="XF1kARlkkYc" label="Cosmic Redshift Demo" >}}
+{{< youtubeLite id="XF1kARlkkYc" label="Cosmic Redshift Demo" params="rel=0">}}

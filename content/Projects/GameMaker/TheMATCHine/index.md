@@ -12,7 +12,7 @@ The goal of this project was to see how close to a finished game I could get wit
 
 The game is a simple matching game where the player must make a match of four cards in order to get their bonus. Then they can try to match some of the other cards!
 
-{{< youtubeLite id="M5yjC1tZMuY" label="The MATCHine Demo" >}}
+{{< youtubeLite id="M5yjC1tZMuY" label="The MATCHine Demo" params="rel=0">}}
 
 There is a total of 6 cards in the game that correspond to health, dodge, attack, poison, block, and regeneration. The effects would stack for each card that the player would get.
 

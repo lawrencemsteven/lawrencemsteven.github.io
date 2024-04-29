@@ -39,6 +39,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>stevenml.com/projects/animation/mayaanimation/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/projects/animation/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -57,6 +63,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>stevenml.com/projects/animation/mayamodeling/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/other/blc/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/projects/other/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -71,6 +89,12 @@
   <url>
     <loc>stevenml.com/projects/gamemaker/cosmicredshift/</loc>
     <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/animation/blendermodeling/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
