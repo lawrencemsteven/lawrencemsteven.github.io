@@ -8,7 +8,7 @@ While at Drexel, I took a course on 3D modeling. In that class I learned the fun
 
 {{< gallery >}}
   <img src="3ModelAssignment.jpg" class="grid-w50" />
-  <img src="Mug.jpg" class="grid-w50" />
+  <img src="mug.jpg" class="grid-w50" />
   <img src="HotGlueGun.png" class="grid-w50" />
   <img src="HotGlueGunRedo.png" class="grid-w50" />
   <img src="WireCutters.png" class="grid-w50" />
