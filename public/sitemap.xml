@@ -21,8 +21,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>stevenml.com/projects/unity/bfbb/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/projects/unity/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/unity/insiderperspective/</loc>
+    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -35,6 +47,12 @@
   <url>
     <loc>stevenml.com/projects/gamemaker/thematchine/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/unity/bulletopia/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
