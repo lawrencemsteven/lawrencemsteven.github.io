@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GameMaker Studio on Steven Lawrence</title>
+    <link>//localhost:1313/content/projects/gamemaker/</link>
+    <description>Recent content in GameMaker Studio on Steven Lawrence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/content/projects/gamemaker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The MATCHine</title>
+      <link>//localhost:1313/content/projects/gamemaker/thematchine/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/gamemaker/thematchine/</guid>
+      <description>Card Matching game made solo in a week</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/gamemaker/thematchine/featured.png" />
+    </item>
+    
+    <item>
+      <title>Metallicrops Prototype</title>
+      <link>//localhost:1313/content/projects/gamemaker/metallicrops/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/gamemaker/metallicrops/</guid>
+      <description>Survival matallic plant growing game</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/gamemaker/metallicrops/featured.png" />
+    </item>
+    
+    <item>
+      <title>Cosmic Redshift</title>
+      <link>//localhost:1313/content/projects/gamemaker/cosmicredshift/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/gamemaker/cosmicredshift/</guid>
+      <description>Four player space ship battler</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/gamemaker/cosmicredshift/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

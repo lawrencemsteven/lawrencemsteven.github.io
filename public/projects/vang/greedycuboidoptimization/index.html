@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>3) Greedy Cuboid Optimization &middot; Steven Lawrence</title>
-  <meta name="title" content="3) Greedy Cuboid Optimization &middot; Steven Lawrence" />
+  <title>Greedy Cuboid Optimization &middot; Steven Lawrence</title>
+  <meta name="title" content="Greedy Cuboid Optimization &middot; Steven Lawrence" />
   
-  <meta name="description" content="Grouping similar blocks into one large cuboid allows for more efficient ray traversal." />
+  <meta name="description" content="Grouping similar blocks into one large cuboid for more efficient ray traversal" />
   
   
   
@@ -62,16 +62,18 @@
   
   <meta property="og:url" content="stevenml.com/projects/vang/greedycuboidoptimization/">
   <meta property="og:site_name" content="Steven Lawrence">
-  <meta property="og:title" content="3) Greedy Cuboid Optimization">
-  <meta property="og:description" content="Grouping similar blocks into one large cuboid allows for more efficient ray traversal.">
+  <meta property="og:title" content="Greedy Cuboid Optimization">
+  <meta property="og:description" content="Grouping similar blocks into one large cuboid for more efficient ray traversal">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
   <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-04-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-04-21T00:00:00+00:00">
     <meta property="og:image" content="stevenml.com/projects/vang/greedycuboidoptimization/featured.png">
 
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="stevenml.com/projects/vang/greedycuboidoptimization/featured.png"><meta name="twitter:title" content="3) Greedy Cuboid Optimization">
-<meta name="twitter:description" content="Grouping similar blocks into one large cuboid allows for more efficient ray traversal.">
+<meta name="twitter:image" content="stevenml.com/projects/vang/greedycuboidoptimization/featured.png"><meta name="twitter:title" content="Greedy Cuboid Optimization">
+<meta name="twitter:description" content="Grouping similar blocks into one large cuboid for more efficient ray traversal">
 
   
   <script type="application/ld+json">
@@ -79,26 +81,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Projects",
-    "name": "3) Greedy Cuboid Optimization",
-    "headline": "3) Greedy Cuboid Optimization",
+    "name": "Greedy Cuboid Optimization",
+    "headline": "Greedy Cuboid Optimization",
     
-    "abstract": "Grouping similar blocks into one large cuboid allows for more efficient ray traversal.",
+    "abstract": "Grouping similar blocks into one large cuboid for more efficient ray traversal",
     "inLanguage": "en",
     "url" : "stevenml.com\/projects\/vang\/greedycuboidoptimization\/",
     "author" : {
       "@type": "Person",
       "name": "Steven Lawrence"
     },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-04-21T00:00:00\u002b00:00",
+    "datePublished": "2024-04-21T00:00:00\u002b00:00",
     
-    
-    
-    
-    
+    "dateModified": "2024-04-21T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "73"
+    "wordCount": "197"
   }]
   </script>
 
@@ -506,7 +508,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(stevenml.com/projects/vang/greedycuboidoptimization/featured_hu4fad880cd0facf89f5afa528033bbf53_756953_1200x0_resize_box_3.png);">
+    style="background-image:url(stevenml.com/projects/vang/greedycuboidoptimization/featured_hud3304c80c1041182cf9d94b9a06ad8d8_687643_1200x0_resize_box_3.png);">
     
 
 
@@ -571,7 +573,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="stevenml.com/projects/vang/greedycuboidoptimization/"
-      >3) Greedy Cuboid Optimization</a
+      >Greedy Cuboid Optimization</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -580,7 +582,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      3) Greedy Cuboid Optimization
+      Greedy Cuboid Optimization
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -621,7 +623,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">January 1 0001</time>
+  <time datetime="2024-04-21 00:00:00 &#43;0000 UTC">April 21 2024</time>
   
 
   
@@ -666,160 +668,40 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Bring emphasis to the start of an article!
-</div>
+          <p>Building on <a href="stevenml.com/projects/vang/plane-assistedraymarching/"  >
+    Plane-Assisted Ray Marching</a>, we can group similar voxels together and then travel through the entire cuboid at once.</p>
+<p>
 
 
 
-<h1 class="relative group">Heading 1 
-    <div id="heading-1" class="anchor"></div>
+
+  
+  
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-1" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-
-
-<h2 class="relative group">Heading 2 
-    <div id="heading-2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-2" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-
-<h3 class="relative group">Heading 3 
-    <div id="heading-3" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-3" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-
-
-<h4 class="relative group">Heading 4 
-    <div id="heading-4" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-4" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-
-
-<h5 class="relative group">Heading 5 
-    <div id="heading-5" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-5" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<p>Regular Text</p>
-<p><em>Italics</em><br>
-<strong>Bold</strong><br>
-<em><strong>Bold Italics</strong></em></p>
-<p>List:</p>
-<ol>
-<li>Item 1
-<ul>
-<li>Subitem 1</li>
-</ul>
-</li>
-<li>Item 2</li>
-<li>Item 3</li>
-</ol>
-<p><code>Inline Code</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Table:</p>
-<table>
-<thead>
-<tr>
-<th>Header 1</th>
-<th>Header 2</th>
-<th>Header 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Item 1</td>
-<td>Item 2</td>
-<td>Item 3</td>
-</tr>
-</tbody>
-</table>
-
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        stevenml.com/projects/vang/greedycuboidoptimization/raymarch_hufdbf6d48d15c2b3a9e57955ffa3008f4_6900_330x0_resize_box_3.png 330w,
+        stevenml.com/projects/vang/greedycuboidoptimization/raymarch_hufdbf6d48d15c2b3a9e57955ffa3008f4_6900_660x0_resize_box_3.png 660w,
+        stevenml.com/projects/vang/greedycuboidoptimization/raymarch_hufdbf6d48d15c2b3a9e57955ffa3008f4_6900_1024x0_resize_box_3.png 1024w,
+        stevenml.com/projects/vang/greedycuboidoptimization/raymarch_hufdbf6d48d15c2b3a9e57955ffa3008f4_6900_1320x0_resize_box_3.png 2x"
+        src="stevenml.com/projects/vang/greedycuboidoptimization/raymarch_hufdbf6d48d15c2b3a9e57955ffa3008f4_6900_660x0_resize_box_3.png"
+        alt="Greedy Cuboid Raymarch"
+      />
+      
+      
+    </figure>
   
 
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
-
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    >This is a test of the alert shortcode</span>
-</div>
-
-<br>
-<br>
-<a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-  href="#button"
-  target="_self"
-  role="button"
->
-  
-This is a button!
-
-</a>
-
-
-<div class="flex mt-2">
-<span
-  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
->
-  <span class="flex flex-row items-center">
-    
-    <span>This is a keyword!</span>
-  </span>
-</span>
-</div>
+</p>
+<p>For example, if a chunk, which is 64x64, consists entirely of air blocks. We could group them together as one block instead and state that a ray within that chunk can do the next ray-plane intersection at the farthest area. To do this it requires storing more information inside of each block.</p>
+<p>Currently, the block contains 34 bits of information about the block, stating what type it is. Then it has another 30 bits for the cuboid information. 5 bits correspond to each direction which means that the maximum size for a cuboid is 32x32. So 5 bits are how far the cuboid stretches in the positive X direction, another 5 bits correspond to how far the cuboid stretches in the negative X direction, etc.</p>
+<p>This allows for much more efficient ray traversal since the cuboid information and the block information is received entirely in one texture call and then the ray-plane intersection function just offsets the plane in the given direction by the stated amount. Much larger scenes can be rendered at a much higher framerate.</p>
 
         </div>
         

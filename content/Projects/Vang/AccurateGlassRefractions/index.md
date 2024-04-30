@@ -1,47 +1,11 @@
 ---
-title: "4) Accurate Glass Refractions"
-summary: "Rays travel through glass and is accurately refracted through it while accumulating some of the color of the glass."
+title: "Accurate Glass Refractions"
+date: 2024-04-07
+summary: "When rays enter and exit glass, the direction changes"
 ---
-{{< lead >}} Bring emphasis to the start of an article! {{< /lead >}}
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-Regular Text
 
-*Italics*  
-**Bold**  
-***Bold Italics***
+When a ray enters a block of glass, using [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law), the direction of the ray is changed. This happens again when exiting a block of glass. This allows for some interesting looking light refractions where the rays seem to bend the longer thay travel through the glass.
 
-List:
-1. Item 1
-   * Subitem 1
-2. Item 2
-3. Item 3
+![Glass Diamond](glassDiamond.png)
 
-`Inline Code`
-
-```C++
-int main() {
-
-}
-```
-
-Table:
-| Header 1 | Header 2 | Header 3 |
-| -------- | -------- | -------- |
-| Item 1   | Item 2   | Item 3   |
-
-{{< alert >}}
-This is a test of the alert shortcode
-{{< /alert >}}
-
-<br>
-<br>
-
-{{< button href="#button" target="_self" >}}
-This is a button!
-{{< /button >}}
-   
-{{< keyword >}} This is a keyword! {{< /keyword >}}
+I want to add reflections but this is a bit trickier. To add reflections I would recursively call the raycast function to instance another ray; however, GLSL does not support recursion. This means that I have to get a little tricky with how to instantiate another raycast and store its information. I will want to set the maximum number of reflections to do this and probably loop over it for however many reflections are needed. For now though I am happy with this effect and it is very interesting to see how the light changes in some weird shapes with the glass.

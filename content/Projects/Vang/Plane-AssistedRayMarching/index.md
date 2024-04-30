@@ -1,47 +1,15 @@
 ---
-title: "1) Plane-Assisted Ray Marching"
-summary: "Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned."
+title: "Plane-Assisted Ray Marching"
+date: 2024-01-15
+summary: "Rays travel block by block until they hit a block and a color is returned"
 ---
-{{< lead >}} Bring emphasis to the start of an article! {{< /lead >}}
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-Regular Text
 
-*Italics*  
-**Bold**  
-***Bold Italics***
+From the main camera a screen is projected in the direction that the player is stated to be looking. Then that screen is divided up by the number of pixels in the viewport and a ray is created for each one. Then there is a ray origin (camera origin) and a direction to travel.
 
-List:
-1. Item 1
-   * Subitem 1
-2. Item 2
-3. Item 3
+So first the ray will check the sides of the cube that it is currently in to see which one it will hit. This is done through a ray-plane intersection which returns a point. Using the distance to that point we can find the surface that will be hit. After doing three ray-place intersections, which ever has the shortest distance is the surface that is hit.
 
-`Inline Code`
+There is also no need to check for all six planes of the cube since, in the X direction, the ray can only be traveling in either positive X, negative X, or is parallel to the x axis. So the first test is to figure out which of these states it is in. For simplicity the case where it is parallel is ignored and treated as postiive X. Doing this for each axis means we only need to check three surfaces. Next we can start the raymarch and keep traveling until a block is hit.
 
-```C++
-int main() {
+![Plane-Assisted Raymarch](raymarch.png)
 
-}
-```
-
-Table:
-| Header 1 | Header 2 | Header 3 |
-| -------- | -------- | -------- |
-| Item 1   | Item 2   | Item 3   |
-
-{{< alert >}}
-This is a test of the alert shortcode
-{{< /alert >}}
-
-<br>
-<br>
-
-{{< button href="#button" target="_self" >}}
-This is a button!
-{{< /button >}}
-   
-{{< keyword >}} This is a keyword! {{< /keyword >}}
+It will travel block by block until eventually a block is hit. Currently this will just return a solid color for the block but this can easily be turned into UV coordinates using the intersection point.

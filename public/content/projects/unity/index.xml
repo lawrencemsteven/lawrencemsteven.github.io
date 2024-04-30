@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Steven Lawrence</title>
+    <link>//localhost:1313/content/projects/unity/</link>
+    <description>Recent content in Unity on Steven Lawrence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/content/projects/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beat Flavor: Breakfast Boogie</title>
+      <link>//localhost:1313/content/projects/unity/bfbb/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/unity/bfbb/</guid>
+      <description>Serve up rhythm, make an unbeatable flavor</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/unity/bfbb/featured.png" />
+    </item>
+    
+    <item>
+      <title>Insider Perspective</title>
+      <link>//localhost:1313/content/projects/unity/insiderperspective/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/unity/insiderperspective/</guid>
+      <description>It helps to have eyes on the inside</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/unity/insiderperspective/featured.png" />
+    </item>
+    
+    <item>
+      <title>Bulletopia</title>
+      <link>//localhost:1313/content/projects/unity/bulletopia/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/unity/bulletopia/</guid>
+      <description>It helps to have eyes on the inside</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/unity/bulletopia/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

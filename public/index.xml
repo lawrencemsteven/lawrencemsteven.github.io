@@ -9,6 +9,26 @@
     
     <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="stevenml.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Greedy Cuboid Optimization</title>
+      <link>stevenml.com/projects/vang/greedycuboidoptimization/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/greedycuboidoptimization/</guid>
+      <description>Grouping similar blocks into one large cuboid for more efficient ray traversal</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/greedycuboidoptimization/featured.png" />
+    </item>
+    
+    <item>
+      <title>Accurate Glass Refractions</title>
+      <link>stevenml.com/projects/vang/accurateglassrefractions/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/accurateglassrefractions/</guid>
+      <description>When rays enter and exit glass, the direction changes</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/accurateglassrefractions/featured.png" />
+    </item>
+    
+    <item>
       <title>Beat Flavor: Breakfast Boogie</title>
       <link>stevenml.com/projects/unity/bfbb/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
@@ -16,6 +36,26 @@
       <guid>stevenml.com/projects/unity/bfbb/</guid>
       <description>Serve up rhythm, make an unbeatable flavor</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/unity/bfbb/featured.png" />
+    </item>
+    
+    <item>
+      <title>Basic Volumetric Fog</title>
+      <link>stevenml.com/projects/vang/basicvolumetricclouds/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/basicvolumetricclouds/</guid>
+      <description>Fog is represented with a block that a ray can travel though</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/basicvolumetricclouds/featured.png" />
+    </item>
+    
+    <item>
+      <title>Plane-Assisted Ray Marching</title>
+      <link>stevenml.com/projects/vang/plane-assistedraymarching/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/plane-assistedraymarching/</guid>
+      <description>Rays travel block by block until they hit a block and a color is returned</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/plane-assistedraymarching/featured.png" />
     </item>
     
     <item>
@@ -116,46 +156,6 @@
       <guid>stevenml.com/projects/animation/blendermodeling/</guid>
       <description>Modeling projects in Blender</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/animation/blendermodeling/featured.png" />
-    </item>
-    
-    <item>
-      <title>1) Plane-Assisted Ray Marching</title>
-      <link>stevenml.com/projects/vang/plane-assistedraymarching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/plane-assistedraymarching/</guid>
-      <description>Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/plane-assistedraymarching/featured.png" />
-    </item>
-    
-    <item>
-      <title>2) Basic Volumetric Fog</title>
-      <link>stevenml.com/projects/vang/basicvolumetricclouds/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/basicvolumetricclouds/</guid>
-      <description>Fog is represented with a block that a ray can travel though.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/basicvolumetricclouds/featured.png" />
-    </item>
-    
-    <item>
-      <title>3) Greedy Cuboid Optimization</title>
-      <link>stevenml.com/projects/vang/greedycuboidoptimization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/greedycuboidoptimization/</guid>
-      <description>Grouping similar blocks into one large cuboid allows for more efficient ray traversal.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/greedycuboidoptimization/featured.png" />
-    </item>
-    
-    <item>
-      <title>4) Accurate Glass Refractions</title>
-      <link>stevenml.com/projects/vang/accurateglassrefractions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>stevenml.com/projects/vang/accurateglassrefractions/</guid>
-      <description>Rays travel through glass and is accurately refracted through it while accumulating some of the color of the glass.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="stevenml.com/projects/vang/accurateglassrefractions/featured.png" />
     </item>
     
     <item>

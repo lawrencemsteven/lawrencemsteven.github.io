@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>1) Plane-Assisted Ray Marching &middot; Steven Lawrence</title>
-  <meta name="title" content="1) Plane-Assisted Ray Marching &middot; Steven Lawrence" />
+  <title>Plane-Assisted Ray Marching &middot; Steven Lawrence</title>
+  <meta name="title" content="Plane-Assisted Ray Marching &middot; Steven Lawrence" />
   
-  <meta name="description" content="Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned." />
+  <meta name="description" content="Rays travel block by block until they hit a block and a color is returned" />
   
   
   
@@ -62,16 +62,18 @@
   
   <meta property="og:url" content="stevenml.com/projects/vang/plane-assistedraymarching/">
   <meta property="og:site_name" content="Steven Lawrence">
-  <meta property="og:title" content="1) Plane-Assisted Ray Marching">
-  <meta property="og:description" content="Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.">
+  <meta property="og:title" content="Plane-Assisted Ray Marching">
+  <meta property="og:description" content="Rays travel block by block until they hit a block and a color is returned">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
   <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-01-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-15T00:00:00+00:00">
     <meta property="og:image" content="stevenml.com/projects/vang/plane-assistedraymarching/featured.png">
 
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="stevenml.com/projects/vang/plane-assistedraymarching/featured.png"><meta name="twitter:title" content="1) Plane-Assisted Ray Marching">
-<meta name="twitter:description" content="Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.">
+<meta name="twitter:image" content="stevenml.com/projects/vang/plane-assistedraymarching/featured.png"><meta name="twitter:title" content="Plane-Assisted Ray Marching">
+<meta name="twitter:description" content="Rays travel block by block until they hit a block and a color is returned">
 
   
   <script type="application/ld+json">
@@ -79,26 +81,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Projects",
-    "name": "1) Plane-Assisted Ray Marching",
-    "headline": "1) Plane-Assisted Ray Marching",
+    "name": "Plane-Assisted Ray Marching",
+    "headline": "Plane-Assisted Ray Marching",
     
-    "abstract": "Rays are cast from the camera and travel block by block until they hit a solid block and the color is returned.",
+    "abstract": "Rays travel block by block until they hit a block and a color is returned",
     "inLanguage": "en",
     "url" : "stevenml.com\/projects\/vang\/plane-assistedraymarching\/",
     "author" : {
       "@type": "Person",
       "name": "Steven Lawrence"
     },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-01-15T00:00:00\u002b00:00",
+    "datePublished": "2024-01-15T00:00:00\u002b00:00",
     
-    
-    
-    
-    
+    "dateModified": "2024-01-15T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "73"
+    "wordCount": "251"
   }]
   </script>
 
@@ -506,7 +508,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(stevenml.com/projects/vang/plane-assistedraymarching/featured_hu4fad880cd0facf89f5afa528033bbf53_756953_1200x0_resize_box_3.png);">
+    style="background-image:url(stevenml.com/projects/vang/plane-assistedraymarching/featured_hu49ed0e27364c648f9cd8a04e58b75c48_959985_1200x0_resize_box_3.png);">
     
 
 
@@ -571,7 +573,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="stevenml.com/projects/vang/plane-assistedraymarching/"
-      >1) Plane-Assisted Ray Marching</a
+      >Plane-Assisted Ray Marching</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -580,7 +582,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      1) Plane-Assisted Ray Marching
+      Plane-Assisted Ray Marching
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -621,7 +623,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">January 1 0001</time>
+  <time datetime="2024-01-15 00:00:00 &#43;0000 UTC">January 15 2024</time>
   
 
   
@@ -666,160 +668,39 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Bring emphasis to the start of an article!
-</div>
+          <p>From the main camera a screen is projected in the direction that the player is stated to be looking. Then that screen is divided up by the number of pixels in the viewport and a ray is created for each one. Then there is a ray origin (camera origin) and a direction to travel.</p>
+<p>So first the ray will check the sides of the cube that it is currently in to see which one it will hit. This is done through a ray-plane intersection which returns a point. Using the distance to that point we can find the surface that will be hit. After doing three ray-place intersections, which ever has the shortest distance is the surface that is hit.</p>
+<p>There is also no need to check for all six planes of the cube since, in the X direction, the ray can only be traveling in either positive X, negative X, or is parallel to the x axis. So the first test is to figure out which of these states it is in. For simplicity the case where it is parallel is ignored and treated as postiive X. Doing this for each axis means we only need to check three surfaces. Next we can start the raymarch and keep traveling until a block is hit.</p>
+<p>
 
 
 
-<h1 class="relative group">Heading 1 
-    <div id="heading-1" class="anchor"></div>
+
+  
+  
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-1" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-
-
-<h2 class="relative group">Heading 2 
-    <div id="heading-2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-2" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-
-<h3 class="relative group">Heading 3 
-    <div id="heading-3" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-3" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-
-
-<h4 class="relative group">Heading 4 
-    <div id="heading-4" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-4" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-
-
-<h5 class="relative group">Heading 5 
-    <div id="heading-5" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading-5" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<p>Regular Text</p>
-<p><em>Italics</em><br>
-<strong>Bold</strong><br>
-<em><strong>Bold Italics</strong></em></p>
-<p>List:</p>
-<ol>
-<li>Item 1
-<ul>
-<li>Subitem 1</li>
-</ul>
-</li>
-<li>Item 2</li>
-<li>Item 3</li>
-</ol>
-<p><code>Inline Code</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Table:</p>
-<table>
-<thead>
-<tr>
-<th>Header 1</th>
-<th>Header 2</th>
-<th>Header 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Item 1</td>
-<td>Item 2</td>
-<td>Item 3</td>
-</tr>
-</tbody>
-</table>
-
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        stevenml.com/projects/vang/plane-assistedraymarching/raymarch_hu7c7b4f5eef31c004d5a62fcdc05d57df_8859_330x0_resize_box_3.png 330w,
+        stevenml.com/projects/vang/plane-assistedraymarching/raymarch_hu7c7b4f5eef31c004d5a62fcdc05d57df_8859_660x0_resize_box_3.png 660w,
+        stevenml.com/projects/vang/plane-assistedraymarching/raymarch_hu7c7b4f5eef31c004d5a62fcdc05d57df_8859_1024x0_resize_box_3.png 1024w,
+        stevenml.com/projects/vang/plane-assistedraymarching/raymarch_hu7c7b4f5eef31c004d5a62fcdc05d57df_8859_1320x0_resize_box_3.png 2x"
+        src="stevenml.com/projects/vang/plane-assistedraymarching/raymarch_hu7c7b4f5eef31c004d5a62fcdc05d57df_8859_660x0_resize_box_3.png"
+        alt="Plane-Assisted Raymarch"
+      />
+      
+      
+    </figure>
   
 
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
-
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    >This is a test of the alert shortcode</span>
-</div>
-
-<br>
-<br>
-<a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-  href="#button"
-  target="_self"
-  role="button"
->
-  
-This is a button!
-
-</a>
-
-
-<div class="flex mt-2">
-<span
-  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
->
-  <span class="flex flex-row items-center">
-    
-    <span>This is a keyword!</span>
-  </span>
-</span>
-</div>
+</p>
+<p>It will travel block by block until eventually a block is hit. Currently this will just return a solid color for the block but this can easily be turned into UV coordinates using the intersection point.</p>
 
         </div>
         

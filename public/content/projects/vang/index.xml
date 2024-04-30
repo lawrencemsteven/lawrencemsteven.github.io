@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vang on Steven Lawrence</title>
+    <link>//localhost:1313/content/projects/vang/</link>
+    <description>Recent content in Vang on Steven Lawrence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/content/projects/vang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greedy Cuboid Optimization</title>
+      <link>//localhost:1313/content/projects/vang/greedycuboidoptimization/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/vang/greedycuboidoptimization/</guid>
+      <description>Grouping similar blocks into one large cuboid for more efficient ray traversal</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/vang/greedycuboidoptimization/featured.png" />
+    </item>
+    
+    <item>
+      <title>Accurate Glass Refractions</title>
+      <link>//localhost:1313/content/projects/vang/accurateglassrefractions/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/vang/accurateglassrefractions/</guid>
+      <description>When rays enter and exit glass, the direction changes</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/vang/accurateglassrefractions/featured.png" />
+    </item>
+    
+    <item>
+      <title>Basic Volumetric Fog</title>
+      <link>//localhost:1313/content/projects/vang/basicvolumetricclouds/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/vang/basicvolumetricclouds/</guid>
+      <description>Fog is represented with a block that a ray can travel though</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/vang/basicvolumetricclouds/featured.png" />
+    </item>
+    
+    <item>
+      <title>Plane-Assisted Ray Marching</title>
+      <link>//localhost:1313/content/projects/vang/plane-assistedraymarching/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/vang/plane-assistedraymarching/</guid>
+      <description>Rays travel block by block until they hit a block and a color is returned</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/vang/plane-assistedraymarching/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

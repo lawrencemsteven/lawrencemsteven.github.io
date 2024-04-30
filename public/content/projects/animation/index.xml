@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modeling &amp; Animation on Steven Lawrence</title>
+    <link>//localhost:1313/content/projects/animation/</link>
+    <description>Recent content in Modeling &amp; Animation on Steven Lawrence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/content/projects/animation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maya Animation</title>
+      <link>//localhost:1313/content/projects/animation/mayaanimation/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/animation/mayaanimation/</guid>
+      <description>Animation projects in Maya</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/animation/mayaanimation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Maya Modeling</title>
+      <link>//localhost:1313/content/projects/animation/mayamodeling/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/animation/mayamodeling/</guid>
+      <description>Modeling projects in Maya</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/animation/mayamodeling/featured.png" />
+    </item>
+    
+    <item>
+      <title>Blender Modeling</title>
+      <link>//localhost:1313/content/projects/animation/blendermodeling/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/projects/animation/blendermodeling/</guid>
+      <description>Modeling projects in Blender</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/content/projects/animation/blendermodeling/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

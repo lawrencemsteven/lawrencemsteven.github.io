@@ -21,6 +21,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>stevenml.com/projects/vang/greedycuboidoptimization/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/accurateglassrefractions/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>stevenml.com/projects/unity/bfbb/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -29,6 +41,18 @@
   <url>
     <loc>stevenml.com/projects/unity/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/basicvolumetricclouds/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/plane-assistedraymarching/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -113,26 +137,6 @@
   <url>
     <loc>stevenml.com/projects/animation/blendermodeling/</loc>
     <lastmod>2019-08-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/plane-assistedraymarching/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/basicvolumetricclouds/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/greedycuboidoptimization/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>stevenml.com/projects/vang/accurateglassrefractions/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

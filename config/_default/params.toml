@@ -19,10 +19,10 @@ showScrollToTop = false
 [homepage]
 layout = "profile"
 showRecent = false
-showRecentItems = 5
+showRecentItems = 3
 showMoreLink = false
-showMoreLinkDest = "/posts"
-cardView = false
+showMoreLinkDest = "/Projects"
+cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
 
@@ -54,6 +54,7 @@ showZenMode = false
 
 [list]
 showHero = true
+heroStyle = "basic"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = true
@@ -66,8 +67,6 @@ groupByYear = false
 cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
-heroStyle = "big"
-
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on Steven Lawrence</title>
+    <link>//localhost:1313/content/</link>
+    <description>Recent content in Contents on Steven Lawrence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Employment History</title>
+      <link>//localhost:1313/content/employment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/content/employment/</guid>
+      <description>Glodon USA March 2022 - December 2023Software EngineerWorked on a small graphics team in various areas for CAD modeling software related to architectureWrote python bindings for graphics related functions on the C++ backendUnderstood 3rd party code for future extension and developed documentation based on the code baseMoberg Analytics February 2021 - January 2022Clinical Informatics EngineerFull Stack development using Flask and React to create a medical dashboard which enables doctors to analyze patient dataCreated an interactive drag and drop analytic constructor and custom data visualizations using D3.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
