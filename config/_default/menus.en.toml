@@ -12,9 +12,9 @@ pageRef = "Projects"
 weight = 2
 
 [[main]]
-name = "VANG"
+name = "Vang"
 parent = "Projects"
-pageRef = "VANG"
+pageRef = "Vang"
 weight = 2
 
 [[main]]
