@@ -100,7 +100,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "150"
+    "wordCount": "193"
   }]
   </script>
 
@@ -699,6 +699,8 @@
   
 
 </p>
+<p>I used <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html"   target="_blank">
+    a fantastic tutorial on how to do reflections, refractions, and a fresnel effect</a> to achieve the refractions. This is a wonderful guide on how it works in the real world and how it can be achieved within a ray tracing engine.</p>
 <p>I want to add reflections but this is a bit trickier. To add reflections I would recursively call the raycast function to instance another ray; however, GLSL does not support recursion. This means that I have to get a little tricky with how to instantiate another raycast and store its information. I will want to set the maximum number of reflections to do this and probably loop over it for however many reflections are needed. For now though I am happy with this effect and it is very interesting to see how the light changes in some weird shapes with the glass.</p>
 
         </div>
