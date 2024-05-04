@@ -4,6 +4,10 @@ date: 2024-05-04
 summary: "Greedy Cuboid Plane-Assisted Ray Marching"
 ---
 
+{{< button href="https://github.com/lawrencemsteven/Vang/releases/download/v0.0.1/v0.0.1.zip" target="_blank" >}}
+Download {{< icon "download" >}}
+{{< /button >}}
+
 ### Controls:
 - WASD - Move Around
 - Shift - Down
