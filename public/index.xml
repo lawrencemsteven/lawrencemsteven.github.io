@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="stevenml.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="stevenml.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>v0.0.1</title>
+      <link>stevenml.com/projects/vang/releases/v0.0.1/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>stevenml.com/projects/vang/releases/v0.0.1/</guid>
+      <description>Greedy Cuboid Plane-Assisted Ray-Marching</description>
+      
+    </item>
+    
     <item>
       <title>Greedy Cuboid Optimization</title>
       <link>stevenml.com/projects/vang/greedycuboidoptimization/</link>

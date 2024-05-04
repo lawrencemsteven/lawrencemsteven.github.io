@@ -4,13 +4,25 @@
 
   <url>
     <loc>stevenml.com/projects/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>stevenml.com/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/releases/v0.0.1/</loc>
+    <lastmod>2024-05-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>stevenml.com/projects/vang/releases/</loc>
+    <lastmod>2024-05-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
