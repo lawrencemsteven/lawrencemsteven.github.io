@@ -1,7 +1,7 @@
 ---
 title: "v0.0.1"
 date: 2024-05-04
-summary: "Greedy Cuboid Plane-Assisted Ray Marching"
+summary: "Building"
 ---
 
 {{< button href="https://github.com/lawrencemsteven/Vang/releases/download/v0.0.1/v0.0.1.zip" target="_blank" >}}
@@ -22,4 +22,4 @@ Download {{< icon "download" >}}
 
 ### Details:
 
-This is the release for Vang and consists of simple movement controls. The main feature is the [Greedy Cuboid Plane-Assisted Ray Marching]({{< ref "Projects/Vang/GreedyCuboidOptimization" >}}).
+This is the first release for Vang and consists of simple movement controls. The main feature is the [Greedy Cuboid Plane-Assisted Ray Marching]({{< ref "Projects/Vang/GreedyCuboidOptimization" >}}).
