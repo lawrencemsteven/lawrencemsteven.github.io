@@ -7,7 +7,7 @@ description: "Graphics Engineer"
 LinkedIn {{< icon "linkedin" >}}
 {{< /button >}}
     
-{{< button href="https://drive.google.com/file/d/1Rjjq6bYOrNzvQOiwbQDwa2VTOgcMZoUk/view?usp=sharing" target="_blank" >}}
+{{< button href="https://drive.google.com/file/d/1UzmNC88s110qFLU87X-4cytouPA_73Yw/view?usp=sharing" target="_blank" >}}
 Resume {{< icon "download" >}}
 {{< /button >}}
     
